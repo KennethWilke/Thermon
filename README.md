@@ -12,7 +12,7 @@ and Matplotlib
 pip install -r requirements.txt
 ```
 
-# Usage
+# Configuration
 
 Thermon operates with a configuration file that tells it which sensors to poll
 and can also be used to specify the target to connect to and the credentials to
@@ -32,4 +32,13 @@ interactive prompts.
 host=mysystem.example.com
 username=myuser
 password=luvK1ttyC@t$
+```
+
+# Running it
+
+To start up Thermon, run it via python and provide the ini config you would
+like to use.
+
+```
+python thermon.py barreleye_temps.ini
 ```
